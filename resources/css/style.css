@@ -1,0 +1,57 @@
+
+body {
+  width: 1230px;
+  height: 100%;
+
+}
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+.logo img {
+    margin-right: 12px;
+    width: 70px;
+    height: 60px;
+
+}
+.logo span {
+  color:MediumAquamarine;
+}
+.logo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding-right: 40px;
+  justify-content: space-between;
+}
+nav span {
+  display: inline-flex;
+  padding: 20px 10px;
+  padding-right: 40px;
+}
+.news {
+  display: flex;
+  padding-top: 80px;
+
+}
+.news div {
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
